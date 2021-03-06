@@ -1,5 +1,5 @@
 {
-  "name": "Project Name",
+  "name": "FabrikProject",
   "version": "0.0.1",
   "dependencies": {},
   "devDependencies": {
@@ -13,8 +13,8 @@
   "license": "ISC",
   "nodemonConfig": {
     "watch": ".",
-    "exec": "clear && src/tests/test.sc.nocompile",
-    "ext": "sc,nocompile",
+    "exec": "clear && src/app.sc",
+    "ext": "sc,nocompile,yaml",
     "ignore": [
       ".git/*"
     ]
