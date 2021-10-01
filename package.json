@@ -1,11 +1,12 @@
 {
-  "name": "Project Name",
+  "name": "AppName",
   "version": "0.0.1",
   "dependencies": {},
   "devDependencies": {
     "nodemon": "^2.0.2"
   },
   "scripts": {
+    "start": "clear && sclang -D src/app.sc",
     "test": "nodemon",
     "watch": "nodemon"
   },
@@ -13,7 +14,7 @@
   "license": "ISC",
   "nodemonConfig": {
     "watch": ".",
-    "exec": "sclang  -D src/tests/test.sc.nocompile --class UnitTest",
+    "exec": "clear && sclang -D src/app.sc",
     "ext": "sc,nocompile",
     "ignore": [
       ".git/*"
